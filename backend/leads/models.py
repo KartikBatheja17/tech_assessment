@@ -2,7 +2,7 @@ from django.db import models
 
 class Lead(models.Model):
     STATUS_CHOICES = (
-        (' NEW', 'New'),
+        ('NEW', 'New'),
         ('CONTACTED', 'Contacted'),
         ('QUALIFIED', 'Qualified'),
         ('LOST', 'Lost'),
